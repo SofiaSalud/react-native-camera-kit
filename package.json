@@ -11,7 +11,7 @@
   "description": "A high performance, fully featured, rock solid camera library for React Native applications",
   "nativePackage": true,
   "scripts": {
-    "build": "tsc --project tsconfig.json",
+    "build": "npx tsc --project tsconfig.json",
     "clean": "rm -rf dist/",
     "test": "jest",
     "lint": "yarn eslint -c .eslintrc.js",
